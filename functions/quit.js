@@ -4,6 +4,6 @@ exports.run = function() {
 
 exports.info = {
     name: "quit",
+    desc: "Exit the program.",
     day: 0,
-    desc: "Exit the program"
 }

@@ -1,17 +1,13 @@
 const prompts = require("prompts");
 const fs = require('fs');
 
-function validateFile(file) {
-    fileExists = fs.existsSync(`./inputs/${file}`);
-    return fileExists ? true : "Invalid file name."
-}
-
 exports.run = async function() {
     const input = await prompts({
         type: "text",
         name: "file",
         message: "Name of file to read (from ./inputs):",
-        validate: validateFile,
+        initial: exports.info.defaultData,
+        validate: (file) => {fileExists = fs.existsSync(`./inputs/${file}`); return fileExists ? true : "Invalid file name."},
     })
 
     fs.readFile(`./inputs/${input.file}`, (e, text) => {
@@ -47,6 +43,7 @@ exports.run = async function() {
 
 exports.info = {
     name: "calorieCountThree",
+    desc: "Find the three elves carrying the most calories in total!",
     day: 1,
-    desc: "Find the three elves carrying the most calories in total!"
+    defaultData: "calories.txt",
 }
