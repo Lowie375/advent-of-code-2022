@@ -26,3 +26,6 @@ Each function is configured to run with a specific input file by default, but yo
 - **DAY 4**: Camp Cleanup
   - code: [`[P1]` **`pairOverlap.js`**](/functions/pairOverlap.js) + [`[P2]` **`partialPairOverlap.js`**](/functions/partialPairOverlap.js)
   - input: [`cleaning.txt`](/inputs/cleaning.txt)
+- **DAY 5**: Supply Stacks
+  - code: [`[P1]` **`supplyStack.js`**](/functions/supplyStack.js) + [`[P2]` **`supplyStack9001.js`**](/functions/supplyStack9001.js)
+  - input: [`crates.txt`](/inputs/crates.txt)

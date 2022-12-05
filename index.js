@@ -15,7 +15,7 @@ for (const file of functionFiles) {
 }
 
 // debug
-//prompts.inject(["sumSortPriority", "rucksack.txt"]);
+//prompts.inject(["supplyStack", "crates.txt"]);
 
 // prompt
 (async () => {
