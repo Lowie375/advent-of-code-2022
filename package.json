@@ -1,6 +1,6 @@
 {
   "name": "advent-of-code-2022",
-  "version": "0.5.1",
+  "version": "0.6.1",
   "description": "A collection of my 2022 Advent of Code problem solutions",
   "main": "index.js",
   "scripts": {

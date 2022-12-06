@@ -29,3 +29,6 @@ Each function is configured to run with a specific input file by default, but yo
 - **DAY 5**: Supply Stacks
   - code: [`[P1]` **`supplyStack.js`**](/functions/supplyStack.js) + [`[P2]` **`supplyStack9001.js`**](/functions/supplyStack9001.js)
   - input: [`crates.txt`](/inputs/crates.txt)
+- **DAY 6**: Tuning Trouble
+  - code: [`[P1]` **`startOfSignal.js`**](/functions/startOfSignal.js) + [`[P2]` **`startOfMessage.js`**](/functions/startOfMessage.js)
+  - input: [`signalbuff.txt`](/inputs/signalbuff.txt)
