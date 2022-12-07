@@ -32,3 +32,6 @@ Each function is configured to run with a specific input file by default, but yo
 - **DAY 6**: Tuning Trouble
   - code: [`[P1]` **`startOfSignal.js`**](/functions/startOfSignal.js) + [`[P2]` **`startOfMessage.js`**](/functions/startOfMessage.js)
   - input: [`signalbuff.txt`](/inputs/signalbuff.txt)
+- **DAY 7**: No Space Left On Device
+  - code: [`[P1]` **`sumSmallDirectories.js`**](/functions/sumSmallDirectories.js) + [`[P2]` **`findDeletableDirectory.js`**](/functions/findDeletableDirectory.js)
+  - input: [`filesystem.txt`](/inputs/filesystem.txt)

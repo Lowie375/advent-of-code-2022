@@ -15,7 +15,7 @@ for (const file of functionFiles) {
 }
 
 // debug
-//prompts.inject(["supplyStack", "crates.txt"]);
+//prompts.inject(["sumSmallDirectories", "filesystem.txt"]);
 
 // prompt
 (async () => {
