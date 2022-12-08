@@ -15,7 +15,7 @@ for (const file of functionFiles) {
 }
 
 // debug
-//prompts.inject(["sumSmallDirectories", "filesystem.txt"]);
+//prompts.inject(["scenicTrees", "trees.txt"]);
 
 // prompt
 (async () => {
@@ -27,7 +27,7 @@ for (const file of functionFiles) {
         limit: 5,
         initial: 0,
         fallback: "No matching function found",
-        suggest: (input, choices) => Promise.resolve(choices.filter(i => i.title.includes(input)))
+        suggest: (input, choices) => Promise.resolve(choices.filter(i => i.title.toLowerCase().includes(input.toLowerCase())))
     });
 
     const fxn = fxnMap.get(input.function);
