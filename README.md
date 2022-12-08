@@ -37,4 +37,4 @@ Each function is configured to run with a specific input file by default, but yo
   - input: [`filesystem.txt`](/inputs/filesystem.txt)
 - **DAY 8**: Treetop Tree House
   - code: [`[P1]` **`skyscraperTrees.js`**](/functions/skyscraperTrees.js) + [`[P2]` **`scenicTrees.js`**](/functions/scenicTrees.js)
-  - input: [`filesystem.txt`](/inputs/trees.txt)
+  - input: [`trees.txt`](/inputs/trees.txt)
