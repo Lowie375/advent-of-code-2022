@@ -38,3 +38,12 @@ Each function is configured to run with a specific input file by default, but yo
 - **DAY 8**: Treetop Tree House
   - code: [`[P1]` **`skyscraperTrees.js`**](/functions/skyscraperTrees.js) + [`[P2]` **`scenicTrees.js`**](/functions/scenicTrees.js)
   - input: [`trees.txt`](/inputs/trees.txt)
+- **DAY 9**: Rope Bridge
+  - code: [`[P1]` **`followRope.js`**](/functions/followRope.js) + [`[P2]` **`followLongRope.js`**](/functions/followLongRope.js)
+  - input: [`rope.txt`](/inputs/rope.txt)
+
+<!-- TEMPLATE
+- **DAY X**: jiji
+  - code: [`[P1]` **`baba.js`**](/functions/baba.js) + [`[P2]` **`keke.js`**](/functions/keke.js)
+  - input: [`fofo.txt`](/inputs/fofo.txt)
+-->
