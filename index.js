@@ -9,10 +9,16 @@ let highestDay = 0;
 
 for (const file of functionFiles) {
     const fxn = require(`./functions/${file}`);
-    selections.push({title: `${fxn.info.day ? `D${fxn.info.day}: ` : ""}${fxn.info.name}`, description: `${fxn.info.desc ? fxn.info.desc : ""}`, value: fxn.info.name});
+    selections.push({
+        title: `${fxn.info.day ? `D${fxn.info.day}: ` : ""}${fxn.info.name}`,
+        description: `${fxn.info.desc ? fxn.info.desc : ""}`,
+        value: fxn.info.name,
+        sortOrder: fxn.info.day ? fxn.info.day : 0,
+    });
     fxnMap.set(fxn.info.name, fxn);
     highestDay = (fxn.info.day > highestDay ? fxn.info.day : highestDay);
 }
+selections.sort((a, b) => a.sortOrder - b.sortOrder);
 
 // debug
 //prompts.inject(["scenicTrees", "trees.txt"]);
