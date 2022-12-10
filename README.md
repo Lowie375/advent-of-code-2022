@@ -41,6 +41,9 @@ Each function is configured to run with a specific input file by default, but yo
 - **DAY 9**: Rope Bridge
   - code: [`[P1]` **`followRope.js`**](/functions/followRope.js) + [`[P2]` **`followLongRope.js`**](/functions/followLongRope.js)
   - input: [`rope.txt`](/inputs/rope.txt)
+- **DAY 10**: Cathode-Ray Tube
+  - code: [`[P1]` **`getCycles.js`**](/functions/getCycles.js) + [`[P2]` **`renderCycleImage.js`**](/functions/renderCycleImage.js)
+  - input: [`assembly.txt`](/inputs/assembly.txt)
 
 <!-- TEMPLATE
 - **DAY X**: jiji

@@ -21,7 +21,7 @@ for (const file of functionFiles) {
 selections.sort((a, b) => a.sortOrder - b.sortOrder);
 
 // debug
-//prompts.inject(["scenicTrees", "trees.txt"]);
+//prompts.inject(["renderCycleImage", "assembly.txt"]);
 
 // prompt
 (async () => {
@@ -30,7 +30,7 @@ selections.sort((a, b) => a.sortOrder - b.sortOrder);
         name: "function",
         message: `Pick a function to run (up to D${highestDay}), or quit`,
         choices: selections,
-        limit: 5,
+        limit: 9,
         initial: 0,
         fallback: "No matching function found",
         suggest: (input, choices) => Promise.resolve(choices.filter(i => i.title.toLowerCase().includes(input.toLowerCase())))
