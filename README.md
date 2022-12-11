@@ -44,6 +44,9 @@ Each function is configured to run with a specific input file by default, but yo
 - **DAY 10**: Cathode-Ray Tube
   - code: [`[P1]` **`getCycles.js`**](/functions/getCycles.js) + [`[P2]` **`renderCycleImage.js`**](/functions/renderCycleImage.js)
   - input: [`assembly.txt`](/inputs/assembly.txt)
+- **DAY 11**: Monkey in the Middle
+  - code: [`[P1]` **`monkeyBusiness.js`**](/functions/monkeyBusiness.js) + [`[P2]` **`worryingMonkeyBusiness.js`**](/functions/worryingMonkeyBusiness.js)
+  - input: [`monkeys.txt`](/inputs/monkeys.txt)
 
 <!-- TEMPLATE
 - **DAY X**: jiji

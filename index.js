@@ -21,7 +21,7 @@ for (const file of functionFiles) {
 selections.sort((a, b) => a.sortOrder - b.sortOrder);
 
 // debug
-//prompts.inject(["renderCycleImage", "assembly.txt"]);
+//prompts.inject(["worryingMonkeyBusiness", "monkeys.txt"]);
 
 // prompt
 (async () => {
