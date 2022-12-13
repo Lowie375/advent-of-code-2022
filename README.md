@@ -10,7 +10,8 @@ Additionally, this folder contains the [`quit.js`](/functions/quit.js) file, whi
 The inputs I was given for each problem are stored in the [`inputs`](/inputs) folder. These contain the raw text I was given from the Advent of Code website - nothing else.
 
 The [`index.js`](index.js) file contains a command handler which serves as the main interface for running the code I've created. You can search for functions by their name or release date.  
-Each function is configured to run with a specific input file by default, but you can add new files to the `inputs` folder and specify those instead of the defaults when running each function (assuming they're suitable for the given problem). You can see which input file a puzzle uses by default by looking at its *`exports.info.defaultData`* field.
+Each function is configured to run with a specific input file by default, but you can add new files to the `inputs` folder and specify those instead of the defaults when running each function. Do, however, be warned that the functions in this repository are not guaranteed to be robust (bad inputs may yield unexpected results!)  
+You can see which input file a puzzle uses by default by looking at its *`exports.info.defaultData`* field.
 
 ### Code Breakdown
 
@@ -50,6 +51,9 @@ Each function is configured to run with a specific input file by default, but yo
 - **DAY 12**: Hill Climbing Algorithm
   - code: [`[P1]` **`optimalHillClimb.js`**](/functions/optimalHillClimb.js) + [`[P2]` **`shortestHillClimb.js`**](/functions/shortestHillClimb.js)
   - input: [`heightmap.txt`](/inputs/heightmap.txt)
+- **DAY 13**: Distress Signal
+  - code: [`[P1]` **`findOrderedPackets.js`**](/functions/findOrderedPackets.js) + [`[P2]` **`decodePackets.js`**](/functions/decodePackets.js)
+  - input: [`signalpackets.txt`](/inputs/signalpackets.txt)
 
 <!-- TEMPLATE
 - **DAY X**: jiji
