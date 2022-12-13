@@ -47,6 +47,9 @@ Each function is configured to run with a specific input file by default, but yo
 - **DAY 11**: Monkey in the Middle
   - code: [`[P1]` **`monkeyBusiness.js`**](/functions/monkeyBusiness.js) + [`[P2]` **`worryingMonkeyBusiness.js`**](/functions/worryingMonkeyBusiness.js)
   - input: [`monkeys.txt`](/inputs/monkeys.txt)
+- **DAY 12**: Hill Climbing Algorithm
+  - code: [`[P1]` **`optimalHillClimb.js`**](/functions/optimalHillClimb.js) + [`[P2]` **`shortestHillClimb.js`**](/functions/shortestHillClimb.js)
+  - input: [`heightmap.txt`](/inputs/heightmap.txt)
 
 <!-- TEMPLATE
 - **DAY X**: jiji
