@@ -21,7 +21,7 @@ for (const file of functionFiles) {
 selections.sort((a, b) => a.sortOrder - b.sortOrder);
 
 // debug
-//prompts.inject(["findOrderedPackets", "test.txt"]);
+//prompts.inject(["simulateFloorSand", "cavetrace.txt", true]);
 
 // prompt
 (async () => {

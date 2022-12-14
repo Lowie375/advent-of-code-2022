@@ -54,6 +54,9 @@ You can see which input file a puzzle uses by default by looking at its *`export
 - **DAY 13**: Distress Signal
   - code: [`[P1]` **`findOrderedPackets.js`**](/functions/findOrderedPackets.js) + [`[P2]` **`decodePackets.js`**](/functions/decodePackets.js)
   - input: [`signalpackets.txt`](/inputs/signalpackets.txt)
+- **DAY 14**: Regolith Reservoir
+  - code: [`[P1]` **`simulateSand.js`**](/functions/simulateSand.js) + [`[P2]` **`simulateFloorSand.js`**](/functions/simulateFloorSand.js)
+  - input: [`cavetrace.txt`](/inputs/cavetrace.txt)
 
 <!-- TEMPLATE
 - **DAY X**: jiji
