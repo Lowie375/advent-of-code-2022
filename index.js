@@ -21,7 +21,7 @@ for (const file of functionFiles) {
 selections.sort((a, b) => a.sortOrder - b.sortOrder);
 
 // debug
-//prompts.inject(["findDistressBeacon", "sensors.txt", 4000000]);
+//prompts.inject(["simulateGiantRockTower", "jetstream.txt"]);
 
 // prompt
 (async () => {

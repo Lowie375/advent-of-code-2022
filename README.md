@@ -60,6 +60,12 @@ You can see which input file a puzzle uses by default by looking at its *`export
 - **DAY 15**: Beacon Exclusion Zone
   - code: [`[P1]` **`noBeaconCount.js`**](/functions/noBeaconCount.js) + [`[P2]` **`findDistressBeacon.js`**](/functions/findDistressBeacon.js)
   - input: [`sensors.txt`](/inputs/sensors.txt)
+- **DAY 16**: Proboscidea Volcanium (WIP)
+  - code: [`[P1]` **`releaseVolcanoPressure.js`**](/functions/releaseVolcanoPressure.js)
+  - input: [`volcano.txt`](/inputs/volcano.txt)
+- **DAY 17**: Pyroclastic Flow(WIP)
+  - code: [`[P1]` **`simulateRockTower.js`**](/functions/simulateRockTower.js) + [`[P2]` **`simulateGiantRockTower.js`**](/functions/simulateGiantRockTower.js)
+  - input: [`jetstream.txt`](/inputs/jetstream.txt)
 
 <!-- TEMPLATE
 - **DAY X**: jiji
