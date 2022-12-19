@@ -21,7 +21,7 @@ for (const file of functionFiles) {
 selections.sort((a, b) => a.sortOrder - b.sortOrder);
 
 // debug
-//prompts.inject(["simulateGiantRockTower", "jetstream.txt"]);
+//prompts.inject(["computeDropletExterior", "droplet.txt"]);
 
 // prompt
 (async () => {
