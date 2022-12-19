@@ -21,7 +21,7 @@ for (const file of functionFiles) {
 selections.sort((a, b) => a.sortOrder - b.sortOrder);
 
 // debug
-//prompts.inject(["computeDropletExterior", "droplet.txt"]);
+//prompts.inject(["sumBlueprintQuality", "blueprints.txt"]);
 
 // prompt
 (async () => {

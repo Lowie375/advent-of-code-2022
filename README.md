@@ -69,6 +69,9 @@ You can see which input file a puzzle uses by default by looking at its *`export
 - **DAY 18**: Boiling Boulders
   - code: [`[P1]` **`computeDropletSurface.js`**](/functions/computeDropletSurface.js) + [`[P2]` **`computeDropletExterior.js`**](/functions/computeDropletExterior.js)
   - input: [`droplet.txt`](/inputs/droplet.txt)
+- **DAY 19**: Not Enough Minerals (INCOMPLETE)
+  - code: [`[P1]` **`sumBlueprintQuality.js`**](/functions/sumBlueprintQuality.js) + [`[P2]` **`getLongBlueprintQuality.js`**](/functions/getLongBlueprintQuality.js)
+  - input: [`blueprints.txt`](/inputs/blueprints.txt)
 
 <!-- TEMPLATE
 - **DAY X**: jiji
