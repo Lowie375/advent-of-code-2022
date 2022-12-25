@@ -5,7 +5,7 @@
 
 A collection of my [2022 Advent of Code](https://adventofcode.com/2022) problem solutions
 
-All content in this repository is licenced under the [MIT License](LICENSE)
+All content in this repository is licensed under the [MIT License](LICENSE)
 
 ## Repository Overview
 
@@ -81,6 +81,16 @@ You can specify other files in the `inputs` folder to use as inputs when running
 - **`DAY 21`**: Monkey Math
   - `[P1]`: [**`monkeyMath.js`**](/functions/monkeyMath.js)
   - `[P2]`: [**`calculateHumanNumber.js`**](/functions/calculateHumanNumber.js)
+- **`DAY 22`**: Monkey Map
+  - `[P1]`: [**`decodePassword.js`**](/functions/decodePassword.js)
+  - `[P2]`: [**`decodeCubicPassword.js`**](/functions/decodeCubicPassword.js) (INCOMPLETE)
+- **`DAY 23`**: Unstable Diffusion
+  - (not yet attempted!)
+- **`DAY 24`**: Blizzard Basin
+  - (not yet attempted!)
+- **`DAY 25`**: Full of Hot Air
+  - `[P1]`: [**`sumSnafuFuel.js`**](/functions/sumSnafuFuel.js)
+  - `[P2]`: **`???`** (INCOMPLETE)
 
 <!-- TEMPLATE
 - **`DAY XX`**: jiji

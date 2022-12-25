@@ -21,7 +21,7 @@ for (const file of functionFiles) {
 selections.sort((a, b) => a.sortOrder - b.sortOrder);
 
 // debug
-//prompts.inject(["calculateHumanNumber", "testmath.txt"]);
+//prompts.inject(["sumSnafuFuel", "snafu.txt"]);
 
 // prompt
 (async () => {

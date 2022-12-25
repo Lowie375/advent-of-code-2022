@@ -29,3 +29,6 @@ Once you have your input data, copy it into a new `.txt` file, place it in this 
 - `[20]`: **`coordinates.txt`**
 - `[21]`: **`monkeymath.txt`**
 - `[22]`: **`password.txt`**
+- `[23]`: **`elves.txt`**
+- `[24]`: **`blizzard.txt`**
+- `[25]`: **`snafu.txt`**
