@@ -14,9 +14,14 @@ Additionally, this folder contains the [`quit.js`](/functions/quit.js) file, whi
 
 The [`index.js`](index.js) file contains a command handler which serves as the main interface for running the code I've created to solve each problem. You can search for functions by name or problem release date.
 
-Each function is configured to run with a specific input file by default (see [`inputs/README`](inputs/README.md) or individual functions' *`exports.info.defaultData`* fields).  
+Each function is configured to run with a specific input file by default (see [`inputs/README`](inputs/README.md) or individual functions' *`exports.info.defaultData`* fields). You can also specify other files in the `inputs` folder to use as inputs when running functions.  
 Input data is not provided in this repository [due to copyright](https://www.reddit.com/r/adventofcode/wiki/faqs/copyright/inputs/): if you want input data, you should grab it directly from the [Advent of Code website](https://adventofcode.com/) and paste it into a text file, then put that file in the [`inputs`](/inputs) folder.  
-You can specify other files in the `inputs` folder to use as inputs when running functions. Do be warned, however, that the functions in this repository are *not* guaranteed to be robust (i.e. bad inputs may throw errors or yield unexpected results!)
+
+### WARNING
+
+**This repository is incomplete!** I haven't managed to solve every problem (yet), so some problems don't have full solutions available in this repo. If you're looking for complete solution sets, I'd recommend checking out the code some of the leaderboard users have written instead.
+
+**Function robustness not guaranteed!** Invalid or badly-formed function inputs may throw errors or yield unexpected results, so I'd recommend using the functions in this repo with their intended inputs. Use custom inputs with caution!
 
 ### Code Breakdown
 
